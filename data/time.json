@@ -1,0 +1,18 @@
+{
+  "start": [
+    {"value":"dzisiaj","label":"dzisiaj"},
+    {"value":"jutro","label":"jutro"},
+    {"value":"pojutrze","label":"pojutrze"}
+  ],
+  "duration": [
+    {"value":"1d","label":"1 dzień"},
+    {"value":"2d","label":"2 dni"},
+    {"value":"3d","label":"3 dni"},
+    {"value":"4d","label":"4 dni"},
+    {"value":"5d","label":"5 dni"},
+    {"value":"6d","label":"6 dni"},
+    {"value":"7d","label":"tydzień"}
+  ],
+  "hours": ["06:00","07:00","08:00","09:00","10:00","11:00","12:00","13:00","14:00","15:00"],
+  "durations": ["1h","2h","3h","4h","5h","6h"]
+}
