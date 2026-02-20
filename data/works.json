@@ -1,0 +1,10 @@
+[
+  {"id":"W1","name":"wszystkie roboty budowlane, rozbiórkowe, remontowe i montażowe bez wstrzymania ruchu"},
+  {"id":"W2","name":"prace na wysokości >2 m z użyciem ŚOI"},
+  {"id":"W3","name":"prace spawalnicze / cięcie / otwarty ogień poza MPB"},
+  {"id":"W4","name":"prace w przestrzeniach zamkniętych na polecenie pisemne"},
+  {"id":"W5","name":"praca w zbiornikach retencyjnych"},
+  {"id":"W6","name":"czyszczenie zbiorników piaskarką powietrzną"},
+  {"id":"W7","name":"praca w zbiornikach hydroforowych / odmanganiaczach / odżelaziaczach"}
+]
+``
