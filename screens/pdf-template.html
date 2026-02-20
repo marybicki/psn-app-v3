@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#000}
+.page{width:210mm;height:297mm;padding:12mm;box-sizing:border-box}
+.hdr{text-align:center;font-size:16px;font-weight:bold;margin-bottom:6mm}
+.tbl{width:100%;border-collapse:collapse;margin-bottom:4mm}
+.tbl td,.tbl th{border:1px solid #000;font-size:11px;padding:3px;vertical-align:top}
+.section{font-weight:bold;background:#eee;border:1px solid #000;padding:3px;margin:6px 0 2px}
+.sig{display:flex;gap:6px;align-items:center;margin-top:6px}
+.sig .line{display:inline-block;width:35mm;border-bottom:1px solid #000}
+.small{font-size:10px}
+</style>
+</head>
+<body>
+
+<div id="p1" class="page">
+  <div class="hdr">POLECENIE / POZWOLENIE PISEMNE – PSN</div>
+
+  <table class="tbl">
+    <tr><th>PSN nr</th><td id="p_nr"></td><th>Data</th><td id="p_data"></td></tr>
+    <tr><th>Rodzaj pracy</th><td id="p_rodzaj" colspan="3"></td></tr>
+    <tr><th>Wydający</th><td id="p_wyd"></td><th>Telefon</th><td id="p_tel"></td></tr>
+    <tr><th>Koordynujący</th><td id="p_koord"></td><th>Dopuszczający</th><td id="p_dop"></td></tr>
+    <tr><th>Kierujący</th><td id="p_kier"></td><th>Początek/Okres</th><td id="p_czas"></td></tr>
+    <tr><th>Bud./Pom.</th><td id="p_miejsce" colspan="3"></td></tr>
+  </table>
+
+  <div class="section">Osoby wykonujące</div>
+  <table class="tbl" id="p_osoby">
+    <tr><th>#</th><th>Imię i nazwisko</th><th>Rola</th><th>Firma</th></tr>
+  </table>
+
+  <div class="section">Zakres prac</div>
+  <table class="tbl"><tr><td id="p_zakres" style="height:30mm"></td></tr></table>
+
+  <div class="section">Wymagania BHP / ŚOI</div>
+  <table class="tbl"><tr><td id="p_soi" style="height:22mm"></td></tr></table>
+
+  <div class="section">Warunki wznowienia pracy po przerwie</div>
+  <table class="tbl"><tr><td id="p_uwagi" style="height:18mm"></td></tr></table>
+
+  <div class="sig"><span>Wydający:</span><span class="line"></span></div>
+  <div class="sig"><span>Dopuszczający:</span><span class="line"></span></div>
+  <div class="sig"><span>Kierujący:</span><span class="line"></span></div>
+</div>
+
+<div id="p2" class="page">
+  <div class="hdr">ZAŁĄCZNIK — WYMAGANIA PPN / PPZ</div>
+
+  <div class="section">Wymagania PPN</div>
+  <table id="tbl_ppn" class="tbl"></table>
+
+  <div class="section">Wymagania PPZ / PPZNA</div>
+  <table id="tbl_ppz" class="tbl"></table>
+
+  <div class="sig"><span>Strażak:</span><span class="line"></span></div>
+  <div class="sig"><span>Asekurujący:</span><span class="line"></span></div>
+  <div class="sig"><span>Wykonujący:</span><span class="line"></span></div>
+</div>
+
+</body>
+</html>
