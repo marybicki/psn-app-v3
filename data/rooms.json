@@ -1,0 +1,23 @@
+[
+  {"id":"1","name":"pom. Produkcyjne"},
+  {"id":"2","name":"pom. Higieniczno - Sanitarne"},
+  {"id":"3","name":"Szatnia"},
+  {"id":"4","name":"pom. Biurowe"},
+  {"id":"5","name":"Archiwum"},
+  {"id":"6","name":"Laboratorium"},
+  {"id":"7","name":"Serwerownia"},
+  {"id":"8","name":"Magazyn Ekspedycyjny"},
+  {"id":"9","name":"Magazyn Pojemników / Palboxów"},
+  {"id":"10","name":"Magazyn Środków Produkcyjnych"},
+  {"id":"11","name":"Magazyn Techniczny"},
+  {"id":"12","name":"Magazyn Chemiczny"},
+  {"id":"13","name":"Magazyn Odpadów Prod."},
+  {"id":"14","name":"Korytarz Techniczny"},
+  {"id":"15","name":"Korytarz Komunikacyjny"},
+  {"id":"16","name":"Instalacja Amoniaku (na zewnątrz)"},
+  {"id":"17","name":"Warsztat"},
+  {"id":"18","name":"Rozdzielnia chłodnicza"},
+  {"id":"19","name":"Rozdzielnia Elektryczna"},
+  {"id":"20","name":"Studzienki i kanały"},
+  {"id":"21","name":"Inne pom. Techniczne"}
+]
