@@ -4,22 +4,32 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>PSN SPA v3</title>
+
+  <!-- TO JEST WAŻNE: prawdziwy link do CSS -->
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header class="topbar">
+    <!-- TO JEST WAŻNE: prawdziwy obrazek logo -->
     <img src="assets/logo.svg" alt="Logo" class="logo"/>
     <h1>Pozwolenie / Zezwolenie PSN</h1>
     <nav id="nav"></nav>
   </header>
-  <main id="app" class="container"></main>
-  <footer class="footer"><small>© 2026 – PSN SPA v3</small></footer>
+
+  <main id="app" class="container" aria-live="polite"></main>
+
+  <footer class="footer">
+    <small>© 2026 – PSN SPA v3</small>
+  </footer>
+
   <div id="modal" class="modal hidden">
     <div class="modal-body">
       <button id="modal-close" class="ghost" style="float:right">Zamknij</button>
       <div id="modal-content"></div>
     </div>
   </div>
+
+  <!-- TO JEST NAJWAŻNIEJSZE: prawdziwy skrypt z type="module" -->
   <script type="module" src="app.js"></script>
 </body>
 </html>
